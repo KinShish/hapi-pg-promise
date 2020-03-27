@@ -44,6 +44,10 @@ const plugin = {
 
 server.register(plugin);
 ```
+## Original
+
+[![dszczyt/hapi-pg-promise](https://github.com/dszczyt/hapi-pg-promise)
+
 
 ## License
 
