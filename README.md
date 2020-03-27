@@ -36,6 +36,7 @@ const plugin = {
     plugin: hapiPgPromise,
     options: {
         cn: 'postgres://username:password@host:port/database',
+        name: 'db',
         settings: {
           // pg-promise options
         }
