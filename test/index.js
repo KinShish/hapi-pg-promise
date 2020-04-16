@@ -72,10 +72,15 @@ lab.experiment('Postgres Plugin', () => {
 
     lab.test('it successfully uses native bindings without error', async () => {
         const pluginWithConfig = {
-            options: {
+            options: [{
                 connectionString: 'postgres://postgres:mysecretpassword@localhost/hapi_node_postgres',
-                native: true
-            },
+                native: true,
+                name:'db'
+            },{
+                connectionString: 'postgres://postgres:mysecretpassword@localhost/hapi_node_postgres_next',
+                native: true,
+                name:'db_next'
+            }],
             ...Plugin
         };
         
