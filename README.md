@@ -18,29 +18,36 @@ $ npm install hapi-pg-promise
 
 ## Usage
 
-In your request handlers you'll have access to `request.db` which you
+In your request handlers you'll have access to `request.BASE_NAME` which you
 can use to make DB requests.
 
-`server.plugins['hapi-pg-promise'].db` is available outside of request
+`server.plugins['hapi-pg-promise'].BASE_NAME` is available outside of request
 handlers.
 
-### Hapi 17
+### Hapi 18
 
-Current version works with Hapi 17.x.x. For older versions use 1.0.0 of hapi-pg-promise.
+Current version works with Hapi 18.x.x. For older versions use 1.0.0 of hapi-pg-promise.
+
 
 #### Register the plugin
 
 ```js
-const hapiPgPromise = require('hapi-pg-promise');
+const hapiPgPromise = require('hapi-pg-promise-multi');
 const plugin = {
     plugin: hapiPgPromise,
-    options: {
+    options: [{
         cn: 'postgres://username:password@host:port/database',
-        name: 'db',
+        name: 'BASE_NAME',
         settings: {
-          // pg-promise options
+            // pg-promise options
         }
-    }
+    },{
+        cn: 'postgres://username:password@host:port/database_next',
+        name: 'BASE_NAME_NEXT',
+        settings: {
+            // pg-promise options
+        }
+    }]
 };
 
 server.register(plugin);
