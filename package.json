@@ -1,5 +1,5 @@
 {
-	"name": "KinShish/hapi-pg-promise",
+	"name": "hapi-pg-promise-multi",
 	"version": "0.0.1",
 	"description": "Wrap requests with a pg connection.",
 	"keywords": [
