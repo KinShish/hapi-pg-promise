@@ -1,6 +1,6 @@
 {
 	"name": "hapi-pg-promise-multi",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "Wrap requests with a pg connection.",
 	"keywords": [
 		"hapi",
@@ -8,16 +8,16 @@
 		"postgres",
 		"promise"
 	],
-	"homepage": "https://github.com/dszczyt/hapi-pg-promise",
+	"homepage": "https://github.com/KinShish/hapi-pg-promise",
 	"bugs": {
-		"url": "https://github.com/dszczyt/hapi-pg-promise/issues"
+		"url": "https://github.com/KinShish/hapi-pg-promise/issues"
 	},
 	"license": "MIT",
 	"author": "Damien SZCZYT <damien.szczyt@gmail.com>",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dszczyt/hapi-pg-promise"
+		"url": "https://github.com/KinShish/hapi-pg-promise"
 	},
 	"scripts": {
 		"test": "./node_modules/lab/bin/lab -c -L; exit 0;",

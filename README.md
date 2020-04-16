@@ -1,11 +1,11 @@
-# hapi-pg-promise
+# hapi-pg-promise-multi
 
 Wrap requests with a Postgres connection using promises.
 
 [![Build Status](https://travis-ci.org/KinShish/hapi-pg-promise.svg?branch=pg-promise)](https://travis-ci.org/KinShish/hapi-pg-promise)
-[![Dependency Status](https://david-dm.org/KinShish/hapi-pg-promise.svg?style=flat)](https://david-dm.org/KinShish/hapi-pg-promise)
-[![devDependency Status](https://david-dm.org/KinShish/hapi-pg-promise/dev-status.svg?style=flat)](https://david-dm.org/KinShish/hapi-pg-promise#info=devDependencies)
-[![peerDependency Status](https://david-dm.org/KinShish/hapi-pg-promise/peer-status.svg?style=flat)](https://david-dm.org/KinShish/hapi-pg-promise#info=peerDependencies)
+[![dependencies Status](https://david-dm.org/KinShish/hapi-pg-promise/status.svg)](https://david-dm.org/KinShish/hapi-pg-promise)
+[![devDependencies Status](https://david-dm.org/KinShish/hapi-pg-promise/dev-status.svg)](https://david-dm.org/KinShish/hapi-pg-promise?type=dev)
+[![peerDependencies Status](https://david-dm.org/KinShish/hapi-pg-promise/peer-status.svg)](https://david-dm.org/KinShish/hapi-pg-promise?type=peer)
 
 We use the [`pg-promise`](https://github.com/vitaly-t/pg-promise) (`pg-promise`)
 
@@ -13,7 +13,7 @@ We use the [`pg-promise`](https://github.com/vitaly-t/pg-promise) (`pg-promise`)
 ## Install
 
 ```bash
-$ npm install hapi-pg-promise
+$ npm install hapi-pg-promise-multi
 ```
 
 ## Usage
