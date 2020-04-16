@@ -22,8 +22,6 @@ module.exports = {
             });
             server.expose(opts.name, db);
             server.events.on('stop', pgp.end);
-        })
-        
-             
+        });
     }
 };
