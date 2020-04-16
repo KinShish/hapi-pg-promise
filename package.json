@@ -24,13 +24,13 @@
 		"test-cover": "./node_modules/lab/bin/lab -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html"
 	},
 	"dependencies": {
-		"pg-promise": "8.x",
-		"hoek": "5.x"
+		"pg-promise": "10.5.0",
+		"hoek": "6.1.3"
 	},
 	"devDependencies": {
 		"hapi": ">=17.3.1",
 		"code": "^5.x.x",
-		"lab": "^15.x.x"
+		"lab": "^18.0.2"
 	},
 	"peerDependencies": {
 		"hapi": ">=17.0.0"

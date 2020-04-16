@@ -2,10 +2,10 @@
 
 Wrap requests with a Postgres connection using promises.
 
-[![Build Status](https://travis-ci.org/dszczyt/hapi-pg-promise.svg?branch=master)](https://travis-ci.org/dszczyt/hapi-pg-promise)
-[![Dependency Status](https://david-dm.org/dszczyt/hapi-pg-promise.svg?style=flat)](https://david-dm.org/dszczyt/hapi-pg-promise)
-[![devDependency Status](https://david-dm.org/dszczyt/hapi-pg-promise/dev-status.svg?style=flat)](https://david-dm.org/dszczyt/hapi-pg-promise#info=devDependencies)
-[![peerDependency Status](https://david-dm.org/dszczyt/hapi-pg-promise/peer-status.svg?style=flat)](https://david-dm.org/dszczyt/hapi-pg-promise#info=peerDependencies)
+[![Build Status](https://travis-ci.org/KinShish/hapi-pg-promise.svg?branch=pg-promise)](https://travis-ci.org/dszczyt/hapi-pg-promise)
+[![Dependency Status](https://david-dm.org/KinShish/hapi-pg-promise.svg?style=flat)](https://david-dm.org/dszczyt/hapi-pg-promise)
+[![devDependency Status](https://david-dm.org/KinShish/hapi-pg-promise/dev-status.svg?style=flat)](https://david-dm.org/dszczyt/hapi-pg-promise#info=devDependencies)
+[![peerDependency Status](https://david-dm.org/KinShish/hapi-pg-promise/peer-status.svg?style=flat)](https://david-dm.org/dszczyt/hapi-pg-promise#info=peerDependencies)
 
 We use the [`pg-promise`](https://github.com/vitaly-t/pg-promise) (`pg-promise`)
 
